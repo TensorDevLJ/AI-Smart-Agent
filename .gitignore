@@ -1,0 +1,94 @@
+# ============================================
+# 🧠 Smart Agent Project .gitignore
+# Backend (FastAPI + Python) + Frontend (React)
+# ============================================
+
+# --- Python / FastAPI ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+instance/
+.env
+.env.*
+*.env
+.DS_Store
+*.log
+logs/
+*.bak
+.vscode/
+.idea/
+__pycache__/
+.venv/
+venv/
+env/
+ENV/
+*.pid
+*.swp
+
+# --- Secret Keys / Credentials ---
+credentials.json
+token.json
+secrets.json
+
+# --- Build Artifacts ---
+build/
+dist/
+*.egg-info/
+*.spec
+*.egg
+*.manifest
+
+# --- FastAPI / Uvicorn temp files ---
+*.db-journal
+*.sqlite
+*.sqlite3
+*.pid
+*.lock
+
+# --- Node / React (frontend) ---
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# --- OS / Editor Specific ---
+Thumbs.db
+ehthumbs.db
+.DS_Store
+Desktop.ini
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# --- Cache / Coverage ---
+.cache/
+coverage/
+*.cover
+htmlcov/
+.pytest_cache/
+.nox/
+.mypy_cache/
+.pyre/
+pytestdebug.log
+
+# --- Google API Tokens ---
+token.pickle
+token.json
+
+# --- JetBrains / VS Code ---
+.idea/
+.vscode/
+*.code-workspace
+
+# --- Optional: Jupyter ---
+.ipynb_checkpoints/
+*.ipynb

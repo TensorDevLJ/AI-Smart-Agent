@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+requests
+beautifulsoup4
+httpx
+sqlmodel
+alembic
+python-dotenv
+apscheduler
+chromadb
+sentence-transformers
+python-multipart
+jinja2
